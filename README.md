@@ -1,10 +1,10 @@
 ## 🔥 Instalação e execução
 
-1. Faça um clone desse repositório;
-2. Entre na pasta `cd sequelize`;
-3. Rode `yarn` para instalar as dependências;
-4. Altere as credencias dentro de `/src/config/database.js`;
-5. Rode `yarn sequelize db:create` para criar o banco de dados;
-6. Rode `yarn sequelize db:migrate` para executar as migrations;
-7. Rode `yarn dev` para iniciar o servidor.
-8. Importe o arquivo `Insomnia_2019-10-16.json` desse repositório no Insomnia;
+1. Make a clone of this repository;
+2. Enter the folder `cd sequelize`;
+3. Run `yarn` to install the dependencies;
+4. Change credentials inside `/src/config/database.js`;
+5. Run `yarn sequelize db:create` to create the database;
+6. Run `yarn sequelize db:migrate` to run the migrations;
+7. Run `yarn dev` to start the server.
+8. Import the Insomnia_2019-10-16.json file from this repository into Insomnia;
