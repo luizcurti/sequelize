@@ -1,4 +1,4 @@
-## 🔥 Instalação e execução
+## 🔥 Installation and execution
 
 1. Make a clone of this repository;
 2. Enter the folder `cd sequelize`;
