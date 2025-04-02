@@ -7,14 +7,14 @@ module.exports = {
       attributes: ['name', 'email'],
       where: {
         email: {
-          [Op.iLike]: '%@rocketseat.com.br'
+          [Op.iLike]: '%@mail.com'
         }
       },
       include: [
         { 
           association: 'addresses', 
           where: { 
-            street: 'Rua Guilherme Gembala'
+            street: 'Regent Street'
           } 
         },
         { 

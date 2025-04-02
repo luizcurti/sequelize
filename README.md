@@ -1,10 +1,31 @@
-## 🔥 Installation and execution
+# Sequelize Node.js Study
+A study project using Node.js with Sequelize.
 
-1. Make a clone of this repository;
-2. Enter the folder `cd sequelize`;
-3. Run `yarn` to install the dependencies;
-4. Change credentials inside `/src/config/database.js`;
-5. Run `yarn sequelize db:create` to create the database;
-6. Run `yarn sequelize db:migrate` to run the migrations;
-7. Run `yarn dev` to start the server.
-8. Import the Insomnia_2019-10-16.json file from this repository into Insomnia;
+## Features
+Database connection using Sequelize ORM
+
+Migrations and models for structured data management
+
+Environment configuration for database credentials
+
+## Installation & Setup
+
+Clone the repository:
+* git clone https://github.com/luizcurti/sequelize.git
+* cd sequelize
+
+Configure database credentials in /src/config/database.js.
+
+1. Install dependencies:
+* yarn
+
+2. Create the database:
+* yarn sequelize db:create
+
+3. Run migrations:
+* yarn sequelize db:migrate
+
+4. Start the server:
+* yarn dev
+
+Import Insomnia_2019-10-16.json into Insomnia for API testing.
